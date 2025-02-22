@@ -1,5 +1,6 @@
 set mouse=a
 set clipboard=unnamedplus
+set nu
 set softtabstop=4
 set tabstop=4
 set shiftwidth=4
@@ -21,5 +22,4 @@ let g:loaded_matchparen=1
 let mapleader = " "
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
-nnoremap <leader>n :set nu!<CR>
 nnoremap <leader>m :set rnu!<CR>
