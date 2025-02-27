@@ -1,5 +1,6 @@
 set mouse=a
 set clipboard=unnamedplus
+set rnu
 set nu
 set softtabstop=4
 set tabstop=4
@@ -23,3 +24,5 @@ let mapleader = " "
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap <leader>m :set rnu!<CR>
+let &t_SI = "\e[5 q"
+let &t_EI = "\e[2 q"
