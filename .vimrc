@@ -10,15 +10,13 @@ set ai
 set si
 
 call plug#begin()
-
-" List your plugins here
 Plug 'tpope/vim-commentary'
-
 call plug#end()
 
 set bg=dark
 syntax on
 hi Visual ctermbg=white ctermfg=black
+
 let g:loaded_matchparen=1
 let mapleader = " "
 nnoremap <C-d> <C-d>zz
