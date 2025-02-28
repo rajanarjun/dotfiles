@@ -7,6 +7,7 @@ set shiftwidth=4
 set expandtab
 set ai
 set si
+set laststatus=2
 
 set bg=dark
 syntax on
