@@ -9,3 +9,4 @@ set shiftwidth=4               " Indent levels = 4 spaces
 set expandtab                  " Convert tabs to spaces
 set hlsearch                   " Highlight search results
 set incsearch                  " Show matches as you type
+set wildmenu                   " Enhanced command-line completion
