@@ -6,5 +6,5 @@ set autoindent
 set expandtab
 set hlsearch
 set incsearch
-set mouse=a
-let g:loaded_matchparen = 1
+let g:loaded_matchparen=1
+set bg=dark
