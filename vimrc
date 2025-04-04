@@ -9,3 +9,4 @@ set hlsearch
 set incsearch
 set clipboard=unnamedplus
 set bg=dark
+set mouse=a
