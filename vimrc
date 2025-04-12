@@ -1,10 +1,11 @@
 syntax on
-set number
-set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 set autoindent
 set hlsearch
 set incsearch
-set mouse=a
+set clipboard=unnamedplus
+set wildmenu
+set background=dark
