@@ -5,4 +5,5 @@ set softtabstop=4
 set autoindent
 set hlsearch
 set incsearch
+set linebreak
 set background=dark
