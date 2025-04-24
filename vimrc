@@ -8,3 +8,4 @@ set autoindent
 set hlsearch
 set incsearch
 set background=dark
+hi Search ctermbg=red
