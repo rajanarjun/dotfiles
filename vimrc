@@ -7,5 +7,6 @@ set expandtab
 set autoindent
 set hlsearch
 set incsearch
+set linebreak
 set background=dark
 hi Search ctermbg=red
