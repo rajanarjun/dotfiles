@@ -15,7 +15,6 @@ set nobackup
 set history=100
 set clipboard=unnamedplus
 filetype plugin indent on
-set background=dark
 colorscheme jellybeans
 hi normal ctermbg=black
 hi linenr ctermbg=black
