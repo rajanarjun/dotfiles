@@ -1,6 +1,5 @@
 set nocompatible
 syntax on
-set number
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -12,10 +11,8 @@ set ignorecase
 set smartcase
 set noswapfile
 set nobackup
-set history=100
+set history=50
 set clipboard=unnamedplus
 filetype plugin indent on
-colorscheme jellybeans
-hi normal ctermbg=black
-hi linenr ctermbg=black
-hi endofbuffer ctermbg=black
+set background=dark
+hi Search ctermbg=red
