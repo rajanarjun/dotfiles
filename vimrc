@@ -1,4 +1,5 @@
 set nocompatible
+set number
 syntax on
 set tabstop=4
 set shiftwidth=4
@@ -11,7 +12,6 @@ set ignorecase
 set smartcase
 set noswapfile
 set nobackup
-set history=50
 set clipboard=unnamedplus
 filetype plugin indent on
 set background=dark
