@@ -26,7 +26,8 @@ Plug 'tpope/vim-repeat'
 call plug#end()
 
 let mapleader = " "
-nnoremap <leader>f :Files ~/<CR>
+nnoremap <leader>f :Files<CR>
+nnoremap <leader>F :Files ~/<CR>
 nnoremap <leader>r :Rg<CR>
 nnoremap <leader>t :Tags<CR>
 nnoremap <Leader>n :noh<CR>
