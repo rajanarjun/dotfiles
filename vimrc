@@ -8,3 +8,5 @@ set hlsearch
 set incsearch
 set wildmode=list:longest
 set bg=dark
+hi Comment ctermfg=blue
+hi Search ctermbg=red
