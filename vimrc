@@ -1,12 +1,12 @@
 syntax on
 set number
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=4 
+set shiftwidth=4 
+set expandtab
 set autoindent
-filetype plugin indent on
-set hlsearch incsearch
-set ignorecase smartcase
+set hlsearch 
+set incsearch
 set wildmode=list:longest
-set directory=$HOME/.vim/swap/
 set background=dark
 hi Comment ctermfg=blue
 hi Search ctermbg=red
