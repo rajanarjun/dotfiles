@@ -1,8 +1,8 @@
 syntax on
 set number
-set tabstop=4 shiftwidth=4
-set expandtab
+set tabstop=4 shiftwidth=4 expandtab
 set autoindent
+filetype plugin indent on
 set hlsearch incsearch
 set ignorecase smartcase
 set wildmode=list:longest
