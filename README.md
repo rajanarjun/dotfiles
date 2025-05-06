@@ -1,4 +1,4 @@
-####Dotfiles.
+#####Dotfiles
 
 Prerequisite:
 1. Install ripgrep
