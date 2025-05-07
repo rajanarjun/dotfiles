@@ -5,8 +5,8 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set hlsearch 
-set incsearch
-set noswapfile
+set ignorecase 
+set smartcase
 set wildmode=list:longest
 set background=dark
 hi Comment ctermfg=blue
