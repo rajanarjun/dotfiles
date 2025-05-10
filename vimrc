@@ -55,9 +55,9 @@ nnoremap <leader>K <cmd>ALEHover<CR>
 nnoremap <leader>gd <cmd>ALEGoToDefinition<CR>
 nnoremap <leader>gr <cmd>ALEFindReferences<CR>
 
-highlight SignColumn ctermbg=black
+highlight SignColumn ctermbg=None
 highlight ALEErrorSign ctermfg=red
 highlight ALEWarningSign ctermfg=yellow
-highlight ALEError cterm=underline ctermbg=black
-highlight ALEWarning cterm=underline ctermbg=black
-highlight Pmenu ctermbg=black ctermfg=grey
+highlight ALEError cterm=underline ctermbg=None
+highlight ALEWarning cterm=underline ctermbg=None
+highlight Pmenu ctermbg=None ctermfg=grey
