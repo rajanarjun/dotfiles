@@ -40,7 +40,7 @@ let g:ale_lint_on_insert_leave = 1
 let g:ale_virtualtext_cursor = 'disabled'
 let g:ale_echo_msg_format = '[%linter%] %code% %s'
 let g:ale_python_flake8_options = '--ignore=E501,E302'
-let g:ale_echo_cursor = 0
+let g:ale_echo_cursor = 1
 let g:ale_cursor_detail = 1
 let g:ale_floating_preview = 1
 let g:ale_floating_window_border = ['│', '─', '╭', '╮', '╯', '╰', '│', '─']
