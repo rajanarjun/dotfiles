@@ -1,12 +1,12 @@
 syntax on
 set number
-set tabstop=4 
-set shiftwidth=4 
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set autoindent
-set hlsearch 
-set ignorecase 
-set smartcase
+filetype plugin indent on
+autocmd FileType make,c,cpp,cmake,sh,bash setlocal noexpandtab
 set wildmode=list:longest
-set background=dark
-hi Comment ctermfg=blue
+set hlsearch
+set bg=dark
