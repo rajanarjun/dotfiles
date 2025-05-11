@@ -1,16 +1,18 @@
 syntax on
 set number
-set tabstop=4 
-set shiftwidth=4 
+set tabstop=4
+set shiftwidth=4
 set softtabstop=4
 set expandtab
 set autoindent
+set hlsearch
+set ignorecase
+set smartcase
 filetype plugin indent on
-set hlsearch 
 set wildmode=list:longest
 set signcolumn=yes
-set laststatus=2 
-set statusline=%f\ %y\ %m%r%h%=Ln\ %l,%c\ (%p%%)\ 
+let &t_SI = "\e[5 q"
+let &t_EI = "\e[1 q"
 
 let g:jellybeans_overrides = {
 \    'background': { 'ctermbg': 'none', '256ctermbg': 'none' },
@@ -38,9 +40,7 @@ let g:ale_warn_about_trailing_whitespace = 0
 let g:ale_lint_on_text_changed = 'always'
 let g:ale_lint_on_insert_leave = 1
 let g:ale_virtualtext_cursor = 'disabled'
-let g:ale_echo_msg_format = '[%linter%] %code% %s'
 let g:ale_python_flake8_options = '--ignore=E501,E302'
-let g:ale_echo_cursor = 1
 let g:ale_cursor_detail = 1
 let g:ale_floating_preview = 1
 let g:ale_floating_window_border = ['│', '─', '╭', '╮', '╯', '╰', '│', '─']
