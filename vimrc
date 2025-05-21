@@ -1,18 +1,12 @@
 syntax on
 set number
-set hidden
-set noswapfile
 set tabstop=4
 set shiftwidth=4
 set expandtab
+filetype plugin indent on
 set autoindent
 set hlsearch
-set incsearch
-set scrolloff=3
-let mapleader=" "
-nnoremap <leader>n :bn<CR>
-nnoremap <leader>p :bp<CR>
-nnoremap <leader>y "+y
-vnoremap <leader>y "+y
+set noswapfile
 set bg=dark
-hi Comment ctermfg=blue
+hi Comment ctermfg=green
+hi Search ctermbg=red
