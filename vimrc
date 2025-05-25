@@ -1,18 +1,27 @@
 syntax on
-set number
-filetype plugin indent on
+set nu
+set rnu
 set tabstop=4
 set shiftwidth=4
 set expandtab
+filetype plugin indent on
 set autoindent
-set hlsearch
+set hlsearch 
 set incsearch
+set ignorecase
+set smartcase
+set nowrap
 set linebreak
 set scrolloff=3
 set noswapfile
-set timeoutlen=100
-let &t_SI = "\e[5 q"
-let &t_EI = "\e[1 q"
+set ttimeoutlen=100
+set hidden
 set bg=dark
-hi Comment ctermfg=green
-hi Search ctermbg=red
+let mapleader=" "
+nnoremap <leader>r :set rnu!<CR>
+nnoremap <leader>z :set wrap!<CR>
+nnoremap <leader>n :bn<CR>
+nnoremap <leader>p :bp<CR>
+nnoremap <C-j> :m .+1<CR>
+nnoremap <C-k> :m .-2<CR>
+nnoremap <leader><space> :noh<CR>
