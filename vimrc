@@ -3,10 +3,8 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
-filetype plugin indent on
 set autoindent
-set hlsearch 
-set showcmd
+filetype plugin indent on
+set hlsearch incsearch
 set ttimeoutlen=100
 set bg=dark
-hi Search ctermbg=red
