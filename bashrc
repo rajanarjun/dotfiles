@@ -4,7 +4,7 @@
 
 # If not running interactively, don't do anything
 case $- in
-    *i*) ;;
+   *i*) ;;
       *) return;;
 esac
 
@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]???@#??\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[00;38m\]???@#??\[\033[00m\]:\[\033[00;36m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -114,12 +114,17 @@ fi
 
 # some more ls aliases
 alias rm='rm -i'
-alias ll='ls -l'
 
-vfz() {
-    local file
-    file=$(fzf --preview 'head -n 50 {}' --preview-window=top:wrap) || return
-    [ -f "$file" ] || return
-    cd "$(dirname "$file")" || return
-    vim "$(basename "$file")"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+start_hack_script() {
+  echo "[*] Initializing secure connection..."
+  sleep 1
+  echo "[*] Bypassing firewall..."
+  sleep 1
+  echo "[*] Searching for backdoors..."
+  sleep 1
+  cat /dev/urandom | hexdump -C | grep "ca fe"
 }
