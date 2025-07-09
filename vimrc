@@ -9,10 +9,10 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-set mouse=a
 set directory^=$HOME/.vim//
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 set bg=dark
 hi Comment ctermfg=blue
 hi Search ctermbg=red
+hi MatchParen ctermbg=None cterm=underline
