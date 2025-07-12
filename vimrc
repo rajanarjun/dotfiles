@@ -6,7 +6,9 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set hlsearch
+set incsearch
 set directory^=$HOME/.vim//
 set bg=dark
 hi Comment ctermfg=blue
 hi Search ctermbg=red
+hi IncSearch ctermfg=red
