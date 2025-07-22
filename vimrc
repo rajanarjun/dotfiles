@@ -9,12 +9,13 @@ set hlsearch
 set incsearch
 set path+=**
 set mouse=nv
-set laststatus=2
-set clipboard=unnamedplus
 set bg=dark
 hi Comment ctermfg=blue
 hi Search ctermbg=red
 hi IncSearch ctermfg=red
 let mapleader=" "
-nnoremap <leader>n :set rnu!<CR>
+nnoremap <leader>1 :set rnu!<CR>
 nnoremap <leader><space> :noh<CR>
+nnoremap <leader>yy "+y<CR>
+vnoremap <leader>y "+y<CR>
+nnoremap <leader>p "+p<CR>
