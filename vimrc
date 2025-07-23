@@ -1,6 +1,5 @@
 syntax on
 set number
-set relativenumber
 filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
@@ -14,7 +13,6 @@ hi Comment ctermfg=blue
 hi Search ctermbg=red
 hi IncSearch ctermfg=red
 let mapleader=" "
-nnoremap <leader>1 :set rnu!<CR>
 nnoremap <leader><space> :noh<CR>
 nnoremap <leader>yy "+y<CR>
 vnoremap <leader>y "+y<CR>
