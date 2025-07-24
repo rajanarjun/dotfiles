@@ -14,6 +14,6 @@ hi Search ctermbg=red
 hi IncSearch ctermfg=red
 let mapleader=" "
 nnoremap <leader><space> :noh<CR>
-nnoremap <leader>yy "+y<CR>
+nnoremap <leader>y "+yy<CR>
 vnoremap <leader>y "+y<CR>
 nnoremap <leader>p "+p<CR>
