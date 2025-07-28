@@ -1,6 +1,4 @@
 syntax on
-set number
-set relativenumber
 filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
@@ -10,9 +8,11 @@ set hlsearch
 set incsearch
 set path+=**
 set mouse=nv
+set laststatus=2
 let mapleader=" "
-nnoremap <leader>1 :set rnu!<CR>
+nnoremap <leader>1 :set nu!<CR>
 nnoremap <leader><space> :noh<CR>
 set bg=dark
 hi Comment ctermfg=blue
 hi Search ctermbg=red
+hi IncSearch ctermfg=red
