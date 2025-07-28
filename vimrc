@@ -8,7 +8,6 @@ set hlsearch
 set incsearch
 set path+=**
 set mouse=nv
-set laststatus=2
 let mapleader=" "
 nnoremap <leader>1 :set nu!<CR>
 nnoremap <leader><space> :noh<CR>
