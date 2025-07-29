@@ -7,7 +7,6 @@ set autoindent
 set hlsearch
 set incsearch
 set path+=**
-set mouse=nv
 let mapleader=" "
 nnoremap <leader>1 :set nu!<CR>
 nnoremap <leader><space> :noh<CR>
