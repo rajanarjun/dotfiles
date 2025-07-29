@@ -12,14 +12,7 @@ set hlsearch
 set incsearch
 set path+=**
 set mouse=nv
-
-let mapleader=" "
-nnoremap <leader><space> :noh<CR>
-nnoremap <leader>1 :set nu!<CR>
-nnoremap <leader>y "+yy
-vnoremap <leader>y "+y
-nnoremap <leader>p "+p
-
 set bg=dark
+hi Comment ctermfg=blue
 hi Search ctermbg=red
 hi IncSearch ctermfg=red
