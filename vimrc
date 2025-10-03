@@ -6,6 +6,7 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set hlsearch
+set t_md=
 set bg=dark
 hi Comment ctermfg=blue
 hi Search ctermbg=red
