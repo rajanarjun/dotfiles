@@ -1,18 +1,26 @@
+filetype plugin indent on
+
 syntax on
-set number
-set expandtab
-set autoindent
-set smartindent
-set tabstop=4
-set shiftwidth=4
-set backspace=2
-set hlsearch
-set ignorecase
-set smartcase
+set ts=4
+set sw=4
+set et
+set ai
+set si
+set hls
+set ic
+set scs
+set path+=**
+set ls=2
+
+set mouse=nv
+
+set ttimeout
+set ttimeoutlen=50
+
+inoremap {<CR> {<CR>}<Esc>O
+nnoremap <space>1 :set nu!<CR>
+
 set bg=dark
 hi Comment ctermfg=blue
 hi Search ctermbg=red
-nnoremap <space><space> :noh<CR>
-inoremap {<CR> {<CR>}<ESC>O
-vnoremap <space>y "+y
-nnoremap <space>5 :%y+<CR>
+
