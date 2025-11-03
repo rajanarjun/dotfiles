@@ -17,14 +17,13 @@ hi Comment ctermfg=blue
 hi Search ctermbg=red
 hi IncSearch ctermfg=red
 
-" --- Install vim plug if it doesnt exist ---
-if !filereadable(expand('~/plug.vim'))
-  silent !curl -fLo ~/plug.vim
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" --- Install vim-plug if it doesn't exist ---
+if !filereadable(expand('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
-" --- Call the plugin ---
-call plug#begin('~/.vim.plugged')
+call plug#begin('~/.vim/plugged')
 Plug 'prabirshrestha/vim-lsp'
 call plug#end()
 
