@@ -7,5 +7,4 @@ set expandtab
 set autoindent
 set hlsearch
 set bg=dark
-hi Comment ctermfg=blue
 hi Search ctermbg=red
